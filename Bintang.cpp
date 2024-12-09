@@ -7,13 +7,13 @@ int main (){
 
     cout << "Array setelah dibalik: [";
     
-    for (int i=4;i>=1;i--){
-        cout << arr[i]<<",";
+    for (int i=4;i>=0;i--){
+        
+        if (i>0){
+            cout << arr[i] << ",";
+        } else {cout << arr[i] << "]";}
+
     }
-
-    cout << arr[0];
-    cout << "]";
-
 
     return 0;
 }
