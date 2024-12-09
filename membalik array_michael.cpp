@@ -8,8 +8,6 @@ int main()
 
   reverse(begin(Array), end(Array));
 
-  for(auto item:Array)
-  {
-    cout << item << " ";
-  }
+    for (int i : Array) cout << i << " ";
+    return 0;
 }
