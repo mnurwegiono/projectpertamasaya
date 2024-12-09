@@ -8,6 +8,9 @@ int main()
 
   reverse(begin(Array), end(Array));
 
-    for (int i : Array) cout << i << " ";
+    cout<<"[";
+    for (int i : Array) cout << i <<" ";
+    cout<<"]";
+  
     return 0;
 }
