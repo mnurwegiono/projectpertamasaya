@@ -15,7 +15,7 @@ int main (){
     int simpan_value;
 
     // menukar posisi indeks 0 dengan 4, dan 1 dengan 3;
-    for (int i = 0; i < 2; i++){
+    for (int i = 0; i < JUMLAH_ELEMENT/2 ; i++){
 
         simpan_value = arr[i]; 
         arr[i] = arr [JUMLAH_ELEMENT-i-1]; 
